@@ -1,0 +1,46 @@
+body{
+    margin: 60px;
+}
+
+#myTitle{
+    text-align: center;
+    font-size: 40px;
+    margin: 70px;
+}
+
+.choiceBox{
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-evenly;
+  
+}
+
+#cBox {
+  display: visible;
+}
+
+.easyChoice, .meduimChoice, .hardChoice {
+  width: 300px;
+  height: 350px;
+  background: lightgray;
+}
+.easyChoice:hover {
+  #ease {
+    color: green;
+  }
+}
+.meduimChoice:hover {
+  #mid {
+    color: orange;
+  }
+}
+.hardChoice:hover {
+  #hrd {
+    color: red;
+  }
+}
+
+.choiceTitle{
+  text-align: center;
+  font-size: 30px;
+}
